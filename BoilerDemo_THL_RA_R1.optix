@@ -148,14 +148,6 @@ Project:
    Uri: 'urn:FTOptix:SQLiteStore:Net'
    Module: FTOptix.SQLiteStore.Net
    Version: 1.0
-  40:
-   Uri: 'urn:FTOptix:CommunicationDriver'
-   Module: FTOptix.CommunicationDriver
-   Version: 1.0
-  41:
-   Uri: 'urn:FTOptix:CommunicationDriver:Net'
-   Module: FTOptix.CommunicationDriver.Net
-   Version: 1.0
   42:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
@@ -167,14 +159,6 @@ Project:
   44:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
-   Version: 1.0
-  45:
-   Uri: 'urn:FTOptix:EthernetIP'
-   Module: FTOptix.EthernetIP
-   Version: 1.0
-  46:
-   Uri: 'urn:FTOptix:EthernetIP:Net'
-   Module: FTOptix.EthernetIP.Net
    Version: 1.0
  Nodes:
  - File: Nodes/BoilerDemo_THL_RA_R1.yaml
