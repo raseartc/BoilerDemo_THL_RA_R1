@@ -1,0 +1,80 @@
+Name: Users
+Id: g=4ab8a898655d1fdff87d6980ad47e730
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=d668144ed22442ebfea96dea35a5525f
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=3d464415df5780ace582e170acbabeb6
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=20bc1e1cc4612ef3a314556e711b0df6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[32,191,81,224,72,108,180,207,116,214,142,174,70,190,187,216,216,226,17,152,114,50,41,218,186,174,160,156,87,208,116,11],"Salt":[112,15,66,215,109,214,42,59,56,6,125,17,117,123,169,251,93,245,197,194,153,95,75,100,1,62,80,219,199,135,247,13]}}
+    - Name: ChangeTimestamp
+      Id: g=0def3b5dd866594510e8dd680b251144
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-20T13:30:43.0875076"
+    - Name: History
+      Id: g=83ea60bf2288f0ad1f6b4a22cb2b0f58
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=25bb9363c78046bea641588972588b6b
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: User1
+  Id: g=1b1d7e28d35323ead8739edd185330fa
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=7620a414c32b46a406031fb263aa77e0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Password
+    Id: g=2dba2a69f0282aa74b8002247b3ff797
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=493b2f3675285d5256d03789537cafbc
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[166,36,196,131,202,144,92,188,95,5,109,3,107,124,150,134,147,103,75,185,232,51,54,245,128,184,105,119,51,183,139,102],"Salt":[104,46,195,146,144,56,215,123,227,142,166,202,63,184,145,116,115,231,80,164,65,161,191,1,2,230,114,204,246,209,59,93]}}
+    - Name: ChangeTimestamp
+      Id: g=a76bc4c5fc7e6f9393a3cdfb76a0cd4f
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-05-19T06:30:17.4154842"
+    - Name: History
+      Id: g=c94916736131e7bc1d61b26bea2ce0f0
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
